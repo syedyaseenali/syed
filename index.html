@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="d-flex justify-content-between my-3 ">
+      <div class="my-2 mx-2">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div>
+        <img width="20%" src="data:image/png;base64,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" alt="">
+      </div>
+      <div class="mx-5">
+        <button type="button" class="btn btn-danger">Sign Up/sign in</button>
+        <button type="button" class="btn btn-danger">000$</button>
+      </div>
+    </div>
+    <div class="mx-5"><p><i class="fa-solid fa-location-dot"></i><b> For availability </b><u>Choose location</u></p></div>
+    <hr />
+    <div class="d-flex justify-content-center justify-content-around ">
+      <div>
+        <h1 class="text-danger"><b>Start your <br> BK® order.</b></h1><br>
+        <button type="button" class="btn btn-lg btn-primary bg-danger px-5 rounded-pill" disabled>Order Pickup..</button>
+        <br /><br />
+        <button type="button" class="btn btn-lg btn-primary bg-danger px-5 rounded-pill" disabled>Order Delivery</button>
+      </div>
+      <div>
+        <img width="80%" height="80%" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/b5984bead760d0046d44a327c34f7da9a9e68437-1600x900.jpg?w=900&q=90&fit=max&auto=format" alt="">
+      </div>
+    </div><br />
+    <div class="d-flex justify-content-center gap-3 mx-5 ">
+        <div class="bg-light">
+          <img width="100%" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/4cd4a736fab4faf00146cd9d7de109d61f2019a0-2000x1000.png?w=650&q=80&fit=max&auto=format"  alt="...">
+
+            <p><h3>Top a Whopper® your way!</h3> Enter the Million Dollar Whopper®<br> Contest, where your Whopper® creation, your way, could be worth<br> $1 million!*  Your first entry earns you a FREE Whopper® with<br> $1+ purchase.</p>
+
+        </div>
+        <div class="bg-light">
+          <img width="100%" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/236c1dd5e57dae652473a87e39de0fa38a61737e-1000x500.png?w=650&q=80&fit=max&auto=format"  alt="...">
+
+          <p><h3>Top a Whopper® your way!</h3> Enter the Million Dollar Whopper®<br> Contest, where your Whopper® creation, your way, could be worth<br> $1 million!*  Your first entry earns you a FREE Whopper® with<br> $1+ purchase.</p>
+
+        </div>
+    </div>
+
+    <br />
+    <div class="d-flex justify-content-center gap-3 mx-5 ">
+        <div class="bg-light">
+          <img width="100%" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/4cd4a736fab4faf00146cd9d7de109d61f2019a0-2000x1000.png?w=650&q=80&fit=max&auto=format"  alt="...">
+
+            <p><h3>Top a Whopper® your way!</h3> Enter the Million Dollar Whopper®<br> Contest, where your Whopper® creation, your way, could be worth<br> $1 million!*  Your first entry earns you a FREE Whopper® with<br> $1+ purchase.</p>
+
+        </div>
+        <div class="bg-light">
+          <img width="100%" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/236c1dd5e57dae652473a87e39de0fa38a61737e-1000x500.png?w=650&q=80&fit=max&auto=format"  alt="...">
+
+          <p><h3>Top a Whopper® your way!</h3> Enter the Million Dollar Whopper®<br> Contest, where your Whopper® creation, your way, could be worth<br> $1 million!*  Your first entry earns you a FREE Whopper® with<br> $1+ purchase.</p>
+
+        </div>
+    </div>
+
+    <br />
+    <div class="d-flex justify-content-center gap-3 mx-5 ">
+        <div class="bg-light">
+          <img width="100%" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/4cd4a736fab4faf00146cd9d7de109d61f2019a0-2000x1000.png?w=650&q=80&fit=max&auto=format"  alt="...">
+
+            <p><h3>Top a Whopper® your way!</h3> Enter the Million Dollar Whopper®<br> Contest, where your Whopper® creation, your way, could be worth<br> $1 million!*  Your first entry earns you a FREE Whopper® with<br> $1+ purchase.</p>
+
+        </div>
+        <div class="bg-light">
+          <img width="100%" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/236c1dd5e57dae652473a87e39de0fa38a61737e-1000x500.png?w=650&q=80&fit=max&auto=format"  alt="...">
+
+          <p><h3>Top a Whopper® your way!</h3> Enter the Million Dollar Whopper®<br> Contest, where your Whopper® creation, your way, could be worth<br> $1 million!*  Your first entry earns you a FREE Whopper® with<br> $1+ purchase.</p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/c874b655fc.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+ 
